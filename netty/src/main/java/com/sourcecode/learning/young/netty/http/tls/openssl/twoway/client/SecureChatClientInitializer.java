@@ -1,5 +1,6 @@
 package com.sourcecode.learning.young.netty.http.tls.openssl.twoway.client;
 
+import com.sourcecode.learning.young.netty.Constants;
 import io.netty.channel.ChannelInitializer;
 import io.netty.channel.ChannelPipeline;
 import io.netty.channel.socket.SocketChannel;
@@ -29,7 +30,7 @@ public class SecureChatClientInitializer extends ChannelInitializer<SocketChanne
         // and accept any invalid certificates in the client side.
         // You will need something more complicated to identify both
         // and server in the real world.
-        pipeline.addLast(sslCtx.newHandler(ch.alloc(), SecureChatClient.HOST, SecureChatClient.PORT));
+        pipeline.addLast(sslCtx.newHandler(ch.alloc(), Constants.HOST, Constants.PORT));
 
         // On top of the SSL handler, add the text line codec.
         pipeline.addLast(new DelimiterBasedFrameDecoder(8192, Delimiters.lineDelimiter()));
