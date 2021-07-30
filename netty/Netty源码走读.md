@@ -25,7 +25,6 @@
 - [ServerBootstrap初始化过程](5.ServerBootstrap初始化过程.md)
 - [ServerBootstrap的bind](6.ServerBootstrap的bind.md)
 - [Pipeline的设计](7.Pipeline的设计.md)  
-- [EventLoop的任务队列](8.EventLoop的任务队列.md)
 
 ### 零碎知识点
 
