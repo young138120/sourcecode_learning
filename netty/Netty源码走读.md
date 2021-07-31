@@ -25,7 +25,7 @@
 - [ServerBootstrap初始化过程](5.ServerBootstrap初始化过程.md)
 - [ServerBootstrap的bind](6.ServerBootstrap的bind.md)
 - [Pipeline的设计](7.Pipeline的设计.md)  
-
+- [对接一个Client的完整过程](8.Client对接完整过程之链接.md)
 ### 零碎知识点
 
 Netty框架其实还有一些很优秀的特性以及优化。如：零拷贝，内存池的优化，无锁化串行等。后面有时间也会细致的了解完后做个总结和分享
